@@ -1,0 +1,20 @@
+comment:
+  image:
+    repository: alexhubdevops/comment
+    tag: latest
+  service:
+    externalPort: 9292
+
+post:
+  image:
+    repository: alexhubdevops/post
+    tag: latest
+  service:
+      externalPort: 5000
+
+ui:
+  image:
+    repository: alexhubdevops/ui
+    tag: latest
+  service:
+      externalPort: 9292
